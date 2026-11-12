@@ -22,7 +22,7 @@ except ImportError:
 # =========================================================
 # Directory Setup & Config
 # =========================================================
-BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+BASE_DIR = os.path.dirname(os.path.abspath(__file__))
 THREAD_LIMIT = 100 # Render Free Tier-এ ১০০ থ্রেড ক্র্যাশ করবে না
 
 class TelegramState:
